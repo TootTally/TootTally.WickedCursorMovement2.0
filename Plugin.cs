@@ -6,6 +6,7 @@ using System.IO;
 using TootTally.Utils;
 using static TootTally.Utils.Helpers.EasingHelper;
 using UnityEngine;
+using BepInEx.Logging;
 
 namespace TootTally.WickedCursorMovement2
 {
@@ -26,6 +27,9 @@ namespace TootTally.WickedCursorMovement2
         public ConfigEntry<bool> ModuleConfigEnabled { get; set; }
         public bool IsConfigInitialized { get; set; }
         public string Name { get => PluginInfo.PLUGIN_NAME; set => Name = value; }
+
+        public ManualLogSource GetLogger => Logger;
+
         public void LogInfo(string msg) => Logger.LogInfo(msg);
         public void LogError(string msg) => Logger.LogError(msg);
 
