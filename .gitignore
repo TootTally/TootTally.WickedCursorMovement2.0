@@ -18,4 +18,4 @@ Version.cpp
 *.vsidx
 *.sln
 *.vsidx
-.vs/*
+.vs*
