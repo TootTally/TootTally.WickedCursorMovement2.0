@@ -15,3 +15,7 @@ TestResult.xml
 Version.cs
 Version.h
 Version.cpp
+*.vsidx
+*.sln
+*.vsidx
+.vs*
