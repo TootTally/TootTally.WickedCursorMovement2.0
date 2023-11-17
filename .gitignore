@@ -18,11 +18,4 @@ Version.cpp
 *.vsidx
 *.sln
 *.vsidx
-.vs/TootTally.WickedCursorMovement2.0/FileContentIndex/d2dc8341-71af-488b-9632-7cf78b2c39f8.vsidx
-.vs/TootTally.WickedCursorMovement2.0/FileContentIndex/af860bc7-d9c5-46d3-af79-81feb37e7e7f.vsidx
-.vs/TootTally.ModuleTemplate/v17/.futdcache.v2
-.vs/ProjectEvaluation/toottally.wickedcursormovement2.projects.v6.1
-.vs/TootTally.ModuleTemplate/DesignTimeBuild/.dtbcache.v2
-.vs/ProjectEvaluation/toottally.wickedcursormovement2.metadata.v6.1
-.vs/TootTally.WickedCursorMovement2.0/FileContentIndex/d2dc8341-71af-488b-9632-7cf78b2c39f8.vsidx
-.vs/TootTally.WickedCursorMovement2.0/FileContentIndex/af860bc7-d9c5-46d3-af79-81feb37e7e7f.vsidx
+.vs/*
