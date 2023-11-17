@@ -75,6 +75,7 @@ namespace TootTally.WickedCursorMovement2
         public void UnloadModule()
         {
             Harmony.UnpatchID(PluginInfo.PLUGIN_GUID);
+            settingPage.Remove();
             LogInfo($"Module unloaded!");
         }
 
